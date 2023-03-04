@@ -1,19 +1,12 @@
 import classes from "./Section1.module.css";
-import { useEffect, useRef } from "react";
 
 const Section1 = () => {
-
-    const myRef = useRef();
-    useEffect(() => {
-        console.log(myRef.current)
-    })
-
 
     return (
         <section className={classes.SectionContainer}>
             <article className={classes.IntroductionContainer}>
                     {/* <div className="about-me-info-container"> */}
-                        <div ref={myRef} className={classes.imgContainer}>
+                        <div className={classes.imgContainer}>
                             <img src=".\Images\6034.png" alt=""/>
                         </div>
                         <div className={classes.TextContainer}>
