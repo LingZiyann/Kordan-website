@@ -1,0 +1,48 @@
+.SectionContainer{
+    background-color: #0C0032;
+    padding-top: 5rem;
+    
+}
+
+.IntroductionContainer{
+    width: 70%;
+    margin: auto;
+    background-color: #f2e9ce;
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+}
+
+.imgContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer img{
+    height: 70%;
+}
+
+.TextHeader{
+    font-family: "Oswald";
+    font-size: 5rem;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 0.5rem;
+    
+}
+
+.TextBody{
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.TextContainer{
+    width: 70%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+
+}

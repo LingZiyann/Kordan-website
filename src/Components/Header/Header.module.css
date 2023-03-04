@@ -1,0 +1,10 @@
+.KordanLogo{
+    font-family: "Oswald";
+    color: white;
+    font-size: 8em;
+    text-shadow: 2px 2px 5px red;
+    font-weight: 400;
+    margin: 0;
+    background-color: #0C0032;
+    padding-top: 80px;
+}
