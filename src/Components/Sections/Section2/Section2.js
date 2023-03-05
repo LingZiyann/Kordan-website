@@ -16,11 +16,11 @@ const Section2 = () => {
         <section className={classes.Section2Container}>
             <div className={classes.popupContainer}>
                 <h1 ref={popupRef} className={ isVisible ? classes.popupText : classes.popupFalse}>"Mid Gap"</h1>
-                <h2>Kordan is a world class Mid player who is able to compete against the best Mid players in the game</h2>
+                <h2>Kordan is a world class Mid player who is able to win against the best Mid players in the game</h2>
                 <img src=".\Images\Fl9KrteaAAAq57W.jpg"></img>
             </div>
-            <div>
-
+            <div className={classes.lineBreak}>
+                <hr></hr>
             </div>
         </section>
     );

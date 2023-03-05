@@ -1,9 +1,12 @@
+.Navbar{
+    position: relative;
+}
 
 .NavList{
     list-style: none;
     font-family: "Oswald";
     display: flex;
-    font-size: 2rem ;
+    font-size: clamp(0.8rem, 2vw, 2rem) ;
     font-weight: 300;   
     margin: 0; 
     padding: 0;
@@ -24,4 +27,14 @@
 
 .NavList li a:hover{
     opacity: 100%;
+}
+
+.NavList{
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 800px) {
+    .NavList{
+        right: 1em
+    }
 }

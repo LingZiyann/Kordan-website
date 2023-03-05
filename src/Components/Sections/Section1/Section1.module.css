@@ -1,17 +1,18 @@
 .SectionContainer{
     background-color: #0C0032;
-    padding-top: 6rem;
-    
+    padding-top: 7rem;
+    height: 90vh;
 }
 
 
 .IntroductionContainer{
     width: 70%;
     margin: auto;
-    background-color: #f2e9ce;
+    /* background-color: #f2e9ce; */
     display: flex;
     flex-direction: row;
     height: 60vh;
+    padding-right: 3rem;
 }
 
 .imgContainer{
@@ -21,29 +22,209 @@
 }
 
 .imgContainer img{
-    height: 70%;
+    height: 75%;
+    /* padding-bottom: 3rem; */
+    
 }
 
 .TextHeader{
     font-family: "Oswald";
-    font-size: 5rem;
+    /* font-size: clamp(3rem, 5vw, 7rem); */
+    font-size: 6rem;
     font-weight: 400;
     margin: 0;
-    padding-top: 0.5rem;
+    /* padding-top: 0.5rem; */
+    text-shadow: 2px 2px 5px red;
+    color: white;
+    white-space: nowrap;
     
 }
 
 .TextBody{
     font-family: "Josefin Sans";
     text-align: center;
+    /* font-size: clamp(1rem, 1.3vw, 1.5rem); */
     font-size: 1.5rem;
     font-weight: 500;
+    color: wheat;
+
 }
 
 .TextContainer{
     width: 70%;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
+}
+
+.popupText{
+    font-family: "Oswald";
+    color: white;
+    font-size: 8em;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 2s ease;
+
+}
+
+.popupFalse{
+    font-family: "Oswald";
+    color: white;
+    font-size: 8em;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transform: translateY(50px);
+    opacity: 0;
+
+}
+
+.rankContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rankLogoContainer{
+    position: relative;
+}
+
+.rankContainer span{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    bottom: 1rem;   
+    left: 0;
+    right: 0;
+}
+
+.rankContainer h1 {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .rankLogoContainer img{
+        width: 70%;
+    }
+    
+    .TextHeader{
+        font-size: 4rem;
+    }
+
+    .TextBody{
+        font-size: 1.3rem;
+    }
+    
+    .rankContainer span{
+        font-size: 2rem;
+        bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .rankLogoContainer img{
+        width: 50%;
+    }
+    
+    .TextHeader{
+        font-size: 4rem;
+    }
+
+    .TextBody{
+        font-size: 1.1rem;
+    }
+
+    .imgContainer img{
+        height: 65%;
+    }
+
+    .rankContainer span{
+        font-size: 1.4rem;
+        bottom: 0.75rem;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .SectionContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .IntroductionContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .SectionContainer{
+        padding-top: 2rem;
+    }
+
+    .rankContainer img{
+        width: 40%;
+    }
+
+    .rankContainer span{
+        font-size: 1.3rem;
+        bottom: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .TextHeader{
+        font-size: 3.5rem;
+        
+    }
+
+    .TextBody{
+        font-size: 0.8rem;
+    }
+
+    .rankLogoContainer img{
+        width: 30%;
+    }
+
+    .rankContainer span{
+        font-size: 0.9rem;
+        bottom: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .TextHeader{
+        font-size: 2.5rem;
+        
+    }
+
+    .TextBody{
+        font-size: 0.7rem;
+    }
+
+    .rankLogoContainer img{
+        width: 30%;
+    }
+
+    .rankContainer span{
+        font-size: 0.9rem;
+        bottom: 0.4rem;
+    }
 }
