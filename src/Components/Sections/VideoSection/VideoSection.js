@@ -1,6 +1,7 @@
 import classes from "./VideoSection.module.css"
 import Navbar from "../../Navbar/Navbar";
 
+
 const VideoSection = () => {
     return (
         <section className={classes.sectionContainer}>

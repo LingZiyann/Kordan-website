@@ -79,11 +79,3 @@ video{
     background-image: linear-gradient( rgba(0, 0, 0, 0),#0C0032);
 }
 
-hr{
-    height: 0; 
-    border: 0; 
-    border-top: 3px solid ; 
-    width: 80%;
-    margin: auto;
-    background-color: #0C0032;
-}

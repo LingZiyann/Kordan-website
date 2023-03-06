@@ -1,0 +1,101 @@
+.Section4Container{
+    background-color: #0C0032;
+}
+
+.blur{
+    width: 100%;
+    height: 4rem;
+    bottom: 0;
+    background-image: linear-gradient( 0,#0C0032);
+}
+
+
+.popupText{
+    font-family: "Oswald";
+    color: white;
+    font-size: 6rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 2s ease;
+
+}
+
+.popupFalse{
+    font-family: "Oswald";
+    color: white;
+    font-size: 6rem;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transform: translateY(40px);
+    opacity: 0;
+
+}
+
+.popupContainer h2 {
+    font-family: "Josefin Sans";
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: wheat;
+    margin: 0;
+}
+
+.contactInfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.emailContainer{
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+}
+
+.logoContainers{
+    display: flex;
+    
+}
+
+.logoContainers img{
+    width: 3rem;
+}
+
+@media screen and (max-width: 1200px){
+    .popupText, .popupFalse{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .popupText, .popupFalse{
+        font-size: 3rem;
+    }
+
+    .popupContainer h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .popupText, .popupFalse{
+        font-size: 2rem;
+    }
+
+    .popupContainer h2{
+        font-size: 1rem;
+    }
+}

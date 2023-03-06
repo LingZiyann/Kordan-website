@@ -6,6 +6,7 @@ import Section1 from './Components/Sections/Section1/Section1';
 import Section2 from './Components/Sections/Section2/Section2';
 import Section3 from './Components/Sections/Section3/Section3';
 import VideoSection from './Components/Sections/VideoSection/VideoSection';
+import Footer from './Components/Sections/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Section1></Section1>
       <Section2></Section2>
       <Section3></Section3>
+      <Footer></Footer>
     </div>
   );
 }
