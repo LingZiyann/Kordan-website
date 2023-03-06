@@ -20,31 +20,20 @@ const Section2 = () => {
         SetIsHover1(true);
     };
 
-    const hoverFalse1 = () => {
-        SetIsHover1(false);
-    };
-
     const hoverTrue2 = () => {
         SetIsHover2(true);
-    };
-
-    const hoverFalse2 = () => {
-        SetIsHover2(false);
     };
 
     const hoverTrue3 = () => {
         SetIsHover3(true);
     };
 
-    const hoverFalse3 = () => {
-        SetIsHover3(false);
-    };
 
     return(
         <section className={classes.Section2Container}>
             <div className={classes.popupContainer}>
                 <h1 ref={popupRef} className={ isVisible ? classes.popupText : classes.popupFalse}>"Mid Gap"</h1>
-                <h2>Kordan is a world class Mid player who is able to win against the best Mid players in the game</h2>               
+                <h2>Kordan is a world class Mid player who is able to win against the best Mid professionals</h2>               
             </div>
             <section className={classes.AchievementsContainer}>
                 <div className={classes.CabinetColumn} onMouseOver={hoverTrue1}  >
