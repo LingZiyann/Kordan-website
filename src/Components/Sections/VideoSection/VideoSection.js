@@ -1,10 +1,8 @@
 import classes from "./VideoSection.module.css"
-import Navbar from "../../Navbar/Navbar";
 
 const VideoSection = () => {
     return (
         <section className={classes.sectionContainer}>
-            <Navbar></Navbar>
             <div className={classes.overlay}></div>
             <video src=".\Images\videoplayback.mp4" autoPlay loop muted></video>
             <div className={classes.headerContainer}>
