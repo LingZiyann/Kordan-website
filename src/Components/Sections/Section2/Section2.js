@@ -46,22 +46,34 @@ const Section2 = () => {
                 <h1 ref={popupRef} className={ isVisible ? classes.popupText : classes.popupFalse}>"Mid Gap"</h1>
                 <h2>Kordan is a world class Mid player who is able to win against the best Mid players in the game</h2>               
             </div>
-            {/* <div className={classes.lineBreak}>
-                <hr></hr>
-            </div> */}
-                {/* <img src=".\Images\Fl9KrteaAAAq57W.jpg"></img> */}
             <section className={classes.AchievementsContainer}>
-                <div onMouseOver={hoverTrue1} onMouseLeave={hoverFalse1} className={classes.CabinetColumn} >
+                <div className={classes.CabinetColumn} onMouseOver={hoverTrue1}  >
                     <img src=".\Images\ItemSprites.png" className={ isHover1 ? classes.GlassPaneHover1 : classes.GlassPane1}></img>
-                    <article><img style={{borderRadius: "30%"}} src=".\Images\m88.png"></img></article>
+                    <div className={ isHover1 ? classes.overlay: classes.InitialOverlay}>
+                        <ul>
+                            <li style={{backgroundColor: "gold"}}>1st place - 2023 M88 Invitational</li>
+                        </ul>
+                    </div>
+                    <article><img style={{borderRadius: "30%"}} onMouseOver={console.log("hey")} src=".\Images\m88.png"></img></article>
                 </div>
-                <div onMouseOver={hoverTrue2} onMouseLeave={hoverFalse2} className={classes.CabinetColumn} style={{borderLeft: "10px solid #63462D", borderRight: "10px solid #63462D"}}>
+                <div onMouseOver={hoverTrue2} className={classes.MiddleCabinetColumn}>
                     <img src=".\Images\ItemSprites.png" className={ isHover2 ? classes.GlassPaneHover2 : classes.GlassPane2}></img>
                     <article><img src=".\Images\dpc2.jpg"></img></article>
+                    <div className={ isHover2 ? classes.overlay: classes.InitialOverlay}>
+                        <ul>
+                            <li style={{backgroundColor: "gold"}}>1st place - 2023 DPC Div 1 Tour 2</li>
+                            <li style={{backgroundColor: "#007f99"}}>6th place - 2023 DPC Div 1 Tour 1</li>                            
+                        </ul>
+                    </div>
                 </div>               
-                <div onMouseOver={hoverTrue3} onMouseLeave={hoverFalse3} className={classes.CabinetColumn}>
+                <div onMouseOver={hoverTrue3} className={classes.CabinetColumn}>
                     <img src=".\Images\ItemSprites.png" className={ isHover3 ? classes.GlassPaneHover3 : classes.GlassPane3}></img>
                     <article><img src=".\Images\Aegis2022.png"></img></article>
+                    <div className={ isHover3 ? classes.overlay: classes.InitialOverlay}>
+                        <ul>
+                            <li style={{backgroundColor: "#007f99"}}>16th place - 2022 TI11</li>
+                        </ul>
+                    </div>
                 </div>
                 
             </section>
