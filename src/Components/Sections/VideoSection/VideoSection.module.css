@@ -62,7 +62,7 @@ video{
     justify-content: center;
     align-items: center; 
     /* font-size: 1rem; */
-    font-size: clamp(0.5rem, 1vw , 1rem);
+    font-size: clamp(0.6rem, 1vw , 1rem);
     text-shadow: 0.5px 0.5px 3px red;
     font-weight: 400;    
     column-gap: 1rem;
@@ -78,3 +78,14 @@ video{
     background-image: linear-gradient( rgba(0, 0, 0, 0),#0C0032);
 }
 
+@media screen and (max-width: 800px){
+    .textContainer{
+        padding-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .textContainer{
+        padding-top: 4rem;
+    }
+}
