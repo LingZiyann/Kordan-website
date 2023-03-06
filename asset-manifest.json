@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kordan-website/static/css/main.611d7f10.css",
+    "main.css": "/kordan-website/static/css/main.5a7821ee.css",
     "main.js": "/kordan-website/static/js/main.e0c6e7ec.js",
     "static/js/787.2e2df93c.chunk.js": "/kordan-website/static/js/787.2e2df93c.chunk.js",
     "static/media/logo.svg": "/kordan-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kordan-website/index.html",
-    "main.611d7f10.css.map": "/kordan-website/static/css/main.611d7f10.css.map",
+    "main.5a7821ee.css.map": "/kordan-website/static/css/main.5a7821ee.css.map",
     "main.e0c6e7ec.js.map": "/kordan-website/static/js/main.e0c6e7ec.js.map",
     "787.2e2df93c.chunk.js.map": "/kordan-website/static/js/787.2e2df93c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.611d7f10.css",
+    "static/css/main.5a7821ee.css",
     "static/js/main.e0c6e7ec.js"
   ]
 }
