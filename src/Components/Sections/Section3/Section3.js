@@ -13,7 +13,7 @@ const Section3 = () => {
                     well-known teams like Boom and Talon.
                     </p>
                 </article>
-                <vl></vl>
+                <div className={classes.vl}></div>
             </section>
             
             <section className={classes.RightArticleContainer}>

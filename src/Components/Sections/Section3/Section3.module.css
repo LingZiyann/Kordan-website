@@ -59,26 +59,14 @@
     width: 80%;
 }
 
-/* .article2 p {
-    color: #0C0032;
-    font-weight: 500;
-    font-size: 1.5rem;
-    padding: 0 1rem 0 1rem;
-} */
 
 .article3 img {
     width: 80%;
 }
 
-/* .article3 p {
-    color: #0C0032;
-    font-weight: 500;
-    font-size: 1.5rem;
-    padding: 0 1rem 0 1rem;
-} */
 
-vl{
-    border-left: 4px solid #0C0032;
+.vl{
+    border-left: 5px solid #0C0032;
     height: 98%;
 }
 

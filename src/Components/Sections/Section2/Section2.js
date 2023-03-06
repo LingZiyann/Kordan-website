@@ -37,16 +37,16 @@ const Section2 = () => {
             </div>
             <section className={classes.AchievementsContainer}>
                 <div className={classes.CabinetColumn} onMouseOver={hoverTrue1}  >
-                    <img src=".\Images\ItemSprites.png" className={ isHover1 ? classes.GlassPaneHover1 : classes.GlassPane1}></img>
+                    <div  className={ isHover1 ? classes.GlassPaneHover1 : classes.GlassPane1}></div>
                     <div className={ isHover1 ? classes.overlay: classes.InitialOverlay}>
                         <ul>
                             <li style={{backgroundColor: "gold"}}>1st place - 2023 M88 Invitational</li>
                         </ul>
                     </div>
-                    <article><img style={{borderRadius: "30%"}} onMouseOver={console.log("hey")} src=".\Images\m88.png"></img></article>
+                    <article><img style={{borderRadius: "30%"}} src=".\Images\m88.png"></img></article>
                 </div>
                 <div onMouseOver={hoverTrue2} className={classes.MiddleCabinetColumn}>
-                    <img src=".\Images\ItemSprites.png" className={ isHover2 ? classes.GlassPaneHover2 : classes.GlassPane2}></img>
+                    <div className={ isHover2 ? classes.GlassPaneHover2 : classes.GlassPane2}></div>
                     <article><img src=".\Images\dpc2.jpg"></img></article>
                     <div className={ isHover2 ? classes.overlay: classes.InitialOverlay}>
                         <ul>
@@ -56,15 +56,14 @@ const Section2 = () => {
                     </div>
                 </div>               
                 <div onMouseOver={hoverTrue3} className={classes.CabinetColumn}>
-                    <img src=".\Images\ItemSprites.png" className={ isHover3 ? classes.GlassPaneHover3 : classes.GlassPane3}></img>
+                    <div className={ isHover3 ? classes.GlassPaneHover3 : classes.GlassPane3}></div>
                     <article><img src=".\Images\Aegis2022.png"></img></article>
                     <div className={ isHover3 ? classes.overlay: classes.InitialOverlay}>
                         <ul>
                             <li style={{backgroundColor: "#007f99"}}>16th place - 2022 TI11</li>
                         </ul>
                     </div>
-                </div>
-                
+                </div>                
             </section>
         </section>
     );

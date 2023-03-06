@@ -14,7 +14,7 @@ const Section1 = () => {
     // }, [])
 
     return (
-        <section className={classes.SectionContainer}>
+        <section className={classes.SectionContainer} id="AboutMe">
             {/* <div className={classes.popupContainer}>
                 <h1 ref={popupRef} className={ isVisible ? classes.popupText : classes.popupFalse}>"Prodigy"</h1>               
             </div> */}

@@ -1,6 +1,7 @@
 .SectionContainer{
     background-color: #0C0032;
     padding-top: 7rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -29,9 +30,7 @@
     font-weight: 400;
     margin: 0;
     text-shadow: 2px 2px 5px red;
-    color: white;
-    /* white-space: nowrap; */
-    
+    color: white;    
 }
 
 .TextBody{
@@ -127,30 +126,6 @@
     }
 }
 
-/* @media screen and (max-width: 1200px) {
-    .rankLogoContainer img{
-        width: 50%;
-    }
-    
-    .TextHeader{
-        font-size: 4rem;
-    }
-
-    .TextBody{
-        font-size: 1.1rem;
-    }
-
-    .imgContainer img{
-        height: 65%;
-    }
-
-    .rankContainer span{
-        font-size: 1.4rem;
-        bottom: 0.75rem;
-    }
-} */
-
-
 
 @media screen and (max-width: 1000px) {
     .SectionContainer{
@@ -191,33 +166,4 @@
     .TextBody{
         font-size: 0.8rem;
     }
-
-    /* .rankLogoContainer img{
-        width: 30%;
-    }
-
-    .rankContainer span{
-        font-size: 0.9rem;
-        bottom: 0.4rem;
-    } */
 }
-
-/* @media screen and (max-width: 500px) {
-    .TextHeader{
-        font-size: 2.5rem;
-        
-    }
-
-    .TextBody{
-        font-size: 0.7rem;
-    }
-
-    .rankLogoContainer img{
-        width: 30%;
-    }
-
-    .rankContainer span{
-        font-size: 0.9rem;
-        bottom: 0.4rem;
-    }
-} */
