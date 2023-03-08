@@ -1,25 +1,9 @@
 import classes from "./Section1.module.css";
-import { useEffect, useRef, useState } from "react";
-
 const Section1 = () => {
-
-    // const popupRef = useRef();
-    // const [isVisible, setIsVisible] = useState();
-    // useEffect(() => {
-    //     const observer = new IntersectionObserver((entries) => {
-    //         const entry = entries[0];
-    //         setIsVisible(entry.isIntersecting);
-    //     })
-    //     observer.observe(popupRef.current);
-    // }, [])
 
     return (
         <section className={classes.SectionContainer} id="AboutMe">
-            {/* <div className={classes.popupContainer}>
-                <h1 ref={popupRef} className={ isVisible ? classes.popupText : classes.popupFalse}>"Prodigy"</h1>               
-            </div> */}
             <article className={classes.IntroductionContainer}>
-                    {/* <div className="about-me-info-container"> */}
                         <div className={classes.imgContainer}>
                             <img src=".\Images\6034.png" alt=""/>
                         </div>
@@ -36,9 +20,8 @@ const Section1 = () => {
                             
                             <p className={classes.TextBody}>
                                 After finishing his obligations, he took dota more seriously and peaked rank 2 Immortal, while also winning several local tournaments against top singaporean players. His skills
-                                attracted the attention of top SEA teams wanting to recruit him. He is now a position 2 player for team Bleed eSports, playing alongside the well-known local veteran IceIceIce
+                                attracted the attention of top SEA teams wanting to recruit him. He is now a position 2 player for team Bleed eSports, playing alongside the well-known local veteran IceIceIce.
                             </p>   
-                        {/* </div> */}
                         </div>
             </article>
             <div className={classes.rankContainer}>

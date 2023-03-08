@@ -33,7 +33,7 @@ const Section3 = () => {
                     <img src=".\Images\kordanInterview.jpg"></img>
                     <p>Kordan will be slated to play in the upcoming ESL One Berlin Major 2023, and also represent Team Singapore
                         in future international tournaments. He hopes to be able to participate in the prestigious upcoming 
-                        ti12
+                        ti12.
                     </p>
                     <p></p>
                 </article>
